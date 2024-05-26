@@ -1,0 +1,51 @@
+body {
+    background-image: url('./assets/img/fondo-img.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra toda la página */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Asegura que la altura del body cubra toda la ventana */
+    margin: 0; /* Elimina el margen predeterminado */
+  }
+p {
+    width: 80%; /* Cambia el tamaño según sea necesario */
+    height: 60px; /* Altura ejemplo */
+    margin: 0 auto; /* Esto centra horizontalmente el div */
+    display: flex;
+    justify-content: center; /* Centra contenido horizontalmente */
+    align-items: center; /* Centra contenido verticalmente */
+    font-size: 24px;
+    /*background-color: lightblue; /* Ejemplo de fondo */
+  }
+div {
+  font-size: 24px;
+  justify-content: center;
+}
+button {
+  font-size: 24px;
+  justify-content: center;
+  font-size: 16px;
+  border-radius: 20px;
+  width: 110px;
+  height: 55px;
+  font-weight: bold;
+}
+form {
+  font-size: 24px;
+}
+input {
+  width: 300px;
+  height: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+}
+h2 {
+    
+  width: 80%; /* Cambia el tamaño según sea necesario */
+  height: 60px; /* Altura ejemplo */
+  margin: 0 auto; /* Esto centra horizontalmente el div */
+  display: flex;
+  justify-content: center; /* Centra contenido horizontalmente */
+  align-items: center; /* Centra contenido verticalmente */
+  font-size: 24px;
+}
